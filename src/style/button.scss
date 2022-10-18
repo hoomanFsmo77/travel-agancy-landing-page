@@ -1,0 +1,10 @@
+@import "Variables";
+.btn-outline-primary{
+  background: #ffffff;
+  color: $dark;
+  box-shadow: 0 0 40px $secondary;
+  &:hover{
+    background: $secondary;
+    color: #fff;
+  }
+}
