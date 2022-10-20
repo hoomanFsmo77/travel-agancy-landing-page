@@ -1,0 +1,24 @@
+@import "Variables";
+
+.heading_line{
+  width: 100%;
+  height:10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  &::before{
+    content: '';
+    width: 16%;
+    display: inline-block;
+    background: $secondary;
+    height: 25%;
+  }
+  &::after{
+    content: '';
+    width: 4%;
+    display: inline-block;
+    background: $secondary;
+    height: 75%;
+  }
+}

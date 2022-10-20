@@ -11,7 +11,7 @@ self["webpackHotUpdatetemplate"]("main",{},
 /******/ function(__webpack_require__) { // webpackRuntimeModules
 /******/ /* webpack/runtime/getFullHash */
 /******/ (() => {
-/******/ 	__webpack_require__.h = () => ("b3b56bba8f6404694543")
+/******/ 	__webpack_require__.h = () => ("65b0c7743bfdb488ab98")
 /******/ })();
 /******/ 
 /******/ }

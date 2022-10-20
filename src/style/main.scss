@@ -3,13 +3,27 @@
 @import "~bootstrap";
 @import "navbar";
 @import "button";
+@import "heading_line";
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 
 /////////////////////////////////
 *{
   font-family: "Roboto Slab", sans-serif !important;
+
 }
 header{
   @include orange_gradient;
+}
+#service{
+  i{
+    font-size: 3.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .col-12.border-end{
+    border-right: none!important;
+    border-bottom: 1px solid $gray!important;
+  }
 }
 

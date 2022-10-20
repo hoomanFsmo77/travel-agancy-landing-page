@@ -3,13 +3,21 @@
 @import "../../node_modules/bootstrap/scss/variables";
 // Create your own map
 $custom-colors: (
-
+    'gray':$gray
 );
 
 // Merge the maps
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
-
+.text-gradient{
+  background: #fe8c00;
+  background: -webkit-linear-gradient(to right, #fe8c00, #f83600);
+  background: linear-gradient(to right, #fe8c00, #f83600);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+}
 
 @mixin orange_gradient{
   /* ff 3.6+ */
