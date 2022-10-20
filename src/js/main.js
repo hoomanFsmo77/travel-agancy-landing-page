@@ -2,6 +2,9 @@ import "bootstrap"
 import '../style/main.scss';
 import '../images/logo.png'
 import '../images/intro.svg';
-import '../images/service_1.svg'
-import '../images/service_2.svg'
-import '../images/service_3.svg'
+import '../images/service_1.svg';
+import '../images/service_2.svg';
+import '../images/service_3.svg';
+import '../images/comment_1.jpg';
+import '../images/comment_2.jpg';
+import '../images/comment_3.jpg';
