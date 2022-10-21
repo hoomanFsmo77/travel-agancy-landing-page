@@ -1,0 +1,21 @@
+@import "Variables";
+.image_box{
+  width: 100%;
+  cursor: pointer;
+  .overlay{
+    background: rgba(248,54,0,0.75);
+    opacity: 0;
+    transition: all 1s ;
+  }
+  img{
+    transition: all 1s ;
+  }
+  &:hover{
+    .overlay{
+      opacity: 1;
+    }
+    img{
+      transform: scale(1.2);
+    }
+  }
+}
